@@ -1,0 +1,96 @@
+
+.mainPageBox{
+   width: 100%;
+   margin-top:60px;
+}
+.mainHeadBox{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 5px;
+    width: 100%;
+    height: 450px;
+    background-image: url('/src/Assets/Images/headBgImage.webp');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.headingTitle{
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    transition: ease-in 1s ease-out;
+    color: rgb(255, 205, 5);
+    /* background-color: rgba(0, 0, 0, 0.23); */
+    border-radius: 4px;
+    margin-top: 5%;
+    padding: 2px;
+}
+.headingInfo{
+    gap: 5px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    transition: ease-in 1s ease-out;
+    color: rgb(253, 176, 9);
+    /* background-color: rgba(0, 0, 0, 0.23); */
+    border-radius: 4px;
+    padding: 2px;
+}
+.headingDesc{
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    transition: ease-in 1s ease-out;
+    color: rgb(255, 106, 0);
+    /* background-color: rgba(0, 0, 0, 0.23); */
+    border-radius: 4px;
+    padding: 2px;
+}
+.productsBox{
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+.productCard{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    width: 100%;
+    border: 2px solid rgb(228, 191, 5);
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: none;
+}
+.productCard:hover{
+    background-color: rgba(0, 0, 0, 0.435);
+    background-image: url('/src/Assets//Images/detailsCart.png');
+    background-repeat: no-repeat;
+    background-position: bottom ;
+    background-position-y: 93%;
+    background-size: 25px;
+}
+.productImg{
+    width: 100%;
+    max-width: 350px;
+    max-height: 400px;
+}
+.detailsHeadText{
+    padding: 0px 5px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+.detailsText{
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 72, 255);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

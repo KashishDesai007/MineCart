@@ -1,0 +1,41 @@
+
+.mainHeaderBox{
+    position: fixed;
+    top: 0 ;
+    width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 15px;
+background-color: #fff700ec;
+padding: 10px 15px;
+}
+.commonHeadBtns{
+    color: white;
+    background-color: transparent !important;
+    text-decoration: none;
+    text-transform: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:18px;
+    border: solid 1px white;
+    max-height: 30px;
+    min-height: 30px;
+}
+.mainLogo{
+    width: 25px;
+    height: 25px;
+    margin-right: px;
+}
+.titleText{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:22px;
+    margin-right: auto;
+}
+.searchField{
+    background-color: white;
+    width: 100%;
+    max-width: 350px;
+    max-height:40px ;
+    color: #fff700ec;
+}

@@ -1,0 +1,47 @@
+
+.MainFootrBox{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+    padding: 10%;
+}
+
+.InfoText{
+    padding: 0px 5px;
+    font-size: 16px;
+    font-weight:400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+.FooterButtonsBox{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: auto;
+}
+.FooterButtons{
+    color: rgb(255, 130, 5);
+    background-color: white;
+    border: 1px solid black;
+    text-transform: none;
+    font-weight: bold;
+    background-color: rgb(221, 15, 70);
+}
+.FooterLogoBox{
+display: flex;
+gap: 3px;
+}
+.LogoImg{
+    width: 25px;
+    height: 25px;
+    margin-right: px;
+}
+
+.LogoText{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:22px;
+    margin-right: auto;
+}
